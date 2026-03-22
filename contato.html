@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - Gabrielle Avelar</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Container principal da página -->
+<div class="container">
+
+    <!-- Cabeçalho com nome e navegação -->
+    <div class="header">
+        <span class="nome">Gabrielle Avelar</span>
+        <div class="links">
+            <a href="sobre.html">Home</a>
+            <a href="formacao.html">Formação</a>
+            <a href="portfolio.html">Portfólio</a>
+            <a href="contato.html" class="contato">Contato</a>
+        </div>
+        <button id="theme-toggle">🌙</button>
+        <button id="menu-toggle" class="menu-btn">☰</button>
+    </div>
+    
+    <!-- Seção principal com formulário e imagem -->
+    <div class="perfil-row">
+        <div class="conteudo-perfil">
+            <h1>Entre em Contato</h1>
+            <p>Estou sempre aberta para oportunidades de colaboração, discussões sobre tecnologia, Cybersecurity e Requisitos de Software. Se você se interessar nos meus trabalhos ou gostaria de trocar uma ideia, entre em contato comigo! Preencha o formulário abaixo com suas credenciais e mensagem — seus dados serão enviados diretamente para o meu e-mail e responderei assim que possível.</p>
+            
+            <!-- Formulário de contato -->
+            <form id="contact-form">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="conteudo-perfil-imagem">
+            <img src="imagens/html/Captura de tela 2026-03-21 234036.png" alt="Foto ilustrativa de contato e comunicação">
+        </div>
+    </div>
+
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
